@@ -1,4 +1,8 @@
-<h1>id: <%= @task.id %> のタスク編集ページ</h1>
+<%= render 'naviber' %>
+
+<div class="bg-primary">
+ <h1>id: <%= @task.id %> のタスク編集ページ</h1>
+</div>
 
 <%= render 'form', task: @task %>
 
